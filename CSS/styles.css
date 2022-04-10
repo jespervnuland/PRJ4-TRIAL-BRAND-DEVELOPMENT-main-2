@@ -1,27 +1,51 @@
 @charset "UTF-8";
+@import url("https://use.typekit.net/cfp7bsk.css");
+
 /* CSS Document */
 
+/* Typography */
+h1{
+	font-family: beloved-sans, sans-serif;
+}
 
+h2{
+	font-family: beloved-sans, sans-serif;
+	font-size: 20px;
+}
+
+a{
+	font-family: stolzl, sans-serif;
+	font-size: 15px;
+}
+
+.cover-container{
+	background-color: #F7F6F4;
+}
 
 /*Navigatie menu*/
 .nav {
-	padding: 20px;
 	float: right;
-	margin-right: 20px;
-	
 }
 
-.nav-link {
+.nav-link{
 	color: black;
 }
 
+a.nav-link:active{
+	background-color: transparent !important;
+	color: black !important;
+}
+
+a.nav-link:hover{
+	color: #D41E44 !important;
+}
 
 .rounded-circle-logo {
 	margin-left: 20px;
 }
 
-
 /*Landingspage aanpassen*/
+
 .col-sm-4{
 	background: #FFF2A8;
 }
@@ -32,19 +56,22 @@
 }
 
 .our-products-button{
-	color: #D41E44;
-	background: #F8BFD8;
-	border: none;
-	box-shadow: 4px 4px 8px gray;
-	border-radius: 20px;
+	padding: 10px 30px 10px 30px;
+	margin-top: 10px;
+	
+	background-color: transparent;
 }
 
+a.our-products-button{
+	text-decoration: none;
+	fon
+}
 /* Our Storie page */
 
 .our-storie-section{
 	background-color: pink;
 	margin: -12px;
-	padding: 40px;
+	padding: 50px;
 }
 
 .our-mission{
@@ -78,8 +105,21 @@
 	
 }
 .product-gallary {
-	padding: 50px;
+	padding-top: 50px;
 	background-color: #F8BFD8;
 }
 
+.our-team{
+	padding: 50px;
+	background: #F8BFD8;
+}
 
+.introduction-social{
+	padding: 50px;
+}
+
+.name{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: left;
+}
