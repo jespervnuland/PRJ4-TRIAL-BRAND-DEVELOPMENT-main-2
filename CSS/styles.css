@@ -5,7 +5,9 @@
 
 /* Typography */
 h1{
+	
 	font-family: beloved-sans, sans-serif;
+	font-weight: 700;
 }
 
 h2{
@@ -13,10 +15,12 @@ h2{
 	font-size: 20px;
 }
 
-a{
+a, p{
 	font-family: stolzl, sans-serif;
 	font-size: 15px;
 }
+
+
 
 .cover-container{
 	background-color: #F7F6F4;
@@ -31,11 +35,6 @@ a{
 	color: black;
 }
 
-a.nav-link:active{
-	background-color: transparent !important;
-	color: black !important;
-}
-
 a.nav-link:hover{
 	color: #D41E44 !important;
 }
@@ -44,44 +43,66 @@ a.nav-link:hover{
 	margin-left: 20px;
 }
 
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+	color: black;
+	background-color: transparent;
+}
+
 /*Landingspage aanpassen*/
 
-.col-sm-4{
+.introduction-page{
 	background: #FFF2A8;
 }
 .col-sm-8{
 	display: flex;
 	justify-content: center;
-	background:#FFF2A8;
 }
 
 .our-products-button{
 	padding: 10px 30px 10px 30px;
 	margin-top: 10px;
-	
-	background-color: transparent;
+	margin-bottom: 50px;
+	background-color: #F8BFD8;
+	box-shadow: 4px 4px 8px gray;
+	border: none;
+	border-radius: 10px;
 }
 
-a.our-products-button{
+a.text-openings-button{
 	text-decoration: none;
-	fon
+	color: #D41E44;
 }
+
+.opening-section{
+	padding-left: 50px !important;
+}
+
+.sweater-picture{
+	margin:auto;
+}
+
 /* Our Storie page */
 
 .our-storie-section{
-	background-color: pink;
-	margin: -12px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	padding: 50px;
 }
 
 .our-mission{
-	padding-top: 100px;
+	padding-top: 160px;
 	text-align: end;
 }
 
-.product-image{
-	padding: 50px;
+/*Our collection section */
+
+.col-md-7, .col-md-5{
+	background-color: rgba(255,242,168,1.0);
 }
+.product-image{
+	padding: 40px;
+}
+
 .text-products {
 	padding-top: 40px;
 	padding-bottom: 40px;
@@ -96,30 +117,87 @@ a.our-products-button{
 .gallary-button{
 	margin-top: 40px;
 	margin-bottom: 40px;
-	padding: 10px 20px;
+	padding: 10px 50px;
 	color: #D41E44;
-	background: #F8BFD8;
-	border: none;
-	box-shadow: 4px 4px 8px gray;
-	border-radius: 20px;
-	
-}
-.product-gallary {
-	padding-top: 50px;
 	background-color: #F8BFD8;
+	box-shadow: 4px 4px 8px gray;
+	border: none;
+	border-radius: 10px;	
 }
 
-.our-team{
-	padding: 50px;
-	background: #F8BFD8;
+.product-gallary {
+	padding-top: 50px;
+	margin-bottom: 40px;
+}
+.card-body{
+	background-color: transparent;
+	border: none;
+}
+/* Socials Section */
+
+.social-media-page{
+	background-color: transparent;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 .introduction-social{
-	padding: 50px;
+	padding: 40px;
+	margin: 20px;
+	
 }
+
+.go-to-instagram{
+	padding: 10px 30px 10px 30px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	background-color: #F8BFD8;
+	box-shadow: 4px 4px 8px gray;
+	border: none;
+	border-radius: 10px;
+}
+
+a.naya-the-brand-insta{
+	color: #D41E44;
+	text-decoration: none;
+}
+
+.instagram-add{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* Our Team section */
 
 .name{
 	padding-top: 20px;
 	padding-bottom: 20px;
 	text-align: left;
+}
+
+.our-team{
+	padding: 50px;
+	background-color: rgba(255,242,168,1.0);
+}
+
+.btn{
+	padding: 10px 30px 10px 30px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	background-color: #F8BFD8;
+	box-shadow: 4px 4px 8px gray;
+	border: none;
+	border-radius: 10px;
+}
+
+a.btn{
+	color: #D41E44;
+	text-decoration: none;
+}
+
+.jesper-picture{
+	object-fit: cover;
+}
+.annelijn-picture {
+	object-fit: cover;
 }
